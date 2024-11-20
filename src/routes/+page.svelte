@@ -1,6 +1,19 @@
 <script>
-import Button from '$lib/components/Button.svelte'
+    import Cart from './../lib/components/Cart.svelte';
+    import Button from '$lib/components/Button.svelte';
 </script>
+
 <h1>Welcome to SvelteKit</h1>
+
+<!-- Komponenta Button -->
 <Button color="red">Login</Button>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
+<!-- Komponenta Cart -->
+<Cart 
+    href="/example" 
+    color="blue" 
+    title="Okno" 
+    content="Toto je okno. Mooooc hezký okno. Moc dobrý okno. Děkuji.">
+    <!-- Dětský obsah pro kartu -->
+    <Button color="green">Klikni hajzle</Button>
+</Cart>
