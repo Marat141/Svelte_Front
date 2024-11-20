@@ -1,0 +1,6 @@
+<script>
+import Button from '$lib/components/Button.svelte'
+</script>
+<h1>Welcome to SvelteKit</h1>
+<Button color="red">Login</Button>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
